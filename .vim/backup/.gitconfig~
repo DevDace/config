@@ -1,0 +1,9 @@
+[user]
+  name = Dace
+  email = ziegler.adrien@gmail.com
+[core]
+  editor = vim
+[merge]
+  tool = meld
+[credential]
+  help = store --file ~/.git-credentials

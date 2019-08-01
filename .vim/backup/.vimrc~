@@ -1,0 +1,47 @@
+filetype plugin indent on
+set mouse=a
+set number
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+set confirm
+set showmode
+set t_Co=256 "enable 256 color mode
+
+colorscheme badwolf
+syntax on
+
+set backspace=indent,eol,start " make backspace a more flexible
+set backup " make backup files
+set backupdir=~/.vim/backup " where to put backup files
+set directory=~/.vim/tmp " directory to place swap files 
+set cursorline " highlight current line
+"hi CursorLine term=bold cterm=bold ctermbg=darkgrey
+hi LineNr ctermfg=darkred
+set hlsearch " highlight searched for phrases
+set incsearch " highlight as you type you
+              " search phrase
+set laststatus=2 " always show the status line
+set lazyredraw " do not redraw while running macros
+set linespace=0 " don't insert any extra pixel lines
+                " betweens rows
+set list " we do what to show tabs, to ensure we get them
+         " out of my files
+set listchars=tab:>-,trail:- " show tabs and trailing
+set matchtime=5 " how many tenths of a second to blink
+                " matching brackets for
+set nostartofline " leave my cursor where it was
+set numberwidth=5 " We are good up to 99999 lines
+set report=0 " tell us when anything is changed via :...
+set ruler " Always show current positions along the bottom
+set scrolloff=10 " Keep 10 lines (top/bottom) for scope
+set shortmess=aOstT " shortens messages to avoid
+                    " 'press a key' prompt
+set showcmd " show the command being typed
+set showmatch " show matching brackets
+set sidescrolloff=10 " Keep 5 lines at the size
+set statusline=   " clear the statusline for when vimrc is reloaded
+set ignorecase
+set smartcase " if there are caps, go case-sensitive
+set wildmenu
+set wildmode=list:longest,full
